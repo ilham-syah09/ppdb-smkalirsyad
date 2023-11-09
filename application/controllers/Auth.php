@@ -17,7 +17,7 @@ class Auth extends CI_Controller
                 redirect('user');
             }
         }
-        $this->load->model('M_login', 'login');
+        $this->load->model('M_Login', 'login');
     }
 
     public function index()
